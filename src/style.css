@@ -1,0 +1,52 @@
+body {
+  font-family: Lato;
+  font-size: 13px;
+  background-color:rgb(43, 64, 87);
+  color: #fff;
+}
+h2{
+/* padding-left: 30px; */
+text-align: center;
+font-size: 2em;
+}
+form{
+  text-align: center;
+  padding-left: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.todo_text{
+  margin-right:8px;
+  padding: 5px;
+  width:50%;
+  border-radius:3px;
+
+}
+form .btn-Add{
+  background:rgb(61, 86, 114);
+  border-radius: 3px;
+  width: 15%;
+  padding: 7px;
+  font-size: 0.85em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+ul{
+  padding:0px 75px;
+}
+li{
+list-style: none; 
+/* font-size: 1.2em; */
+}
+li span{
+     font-size: 1.3em;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+span.checked{
+  text-decoration: line-through;
+}
+
+button{
+  font-weight: 600;
+}
